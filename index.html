@@ -3,21 +3,134 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Valve Index VR</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-
+    <!-- Poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JW5VSGNBTS"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-JW5VSGNBTS');
+    </script>
   </head>
-  <body>
-    <h1>Worlds best product</h1>
-    
+  <body style="background-color:black;">
+  <!-- Header -->
+  <section class="Header">
+    <nav class="navbar">
+      <a class="navbar-brand" href="https://store.steampowered.com/valveindex"><img src="images/VI_logo_white 1.png">
+      </a>
+      <div class="button1" href="https://store.steampowered.com/valveindex"> 
+        <img class="buynow" src="images/BuyNow.svg">
+        <img class="buynow hover" src="images/BuyNow_Hover.svg">
+      </div>
+    </nav>
+  </section>
+  <!-- Hero Video -->
+  <section class="hero_VR">
+    <div class="heroVR">
+      <img src="images/HeroVR.gif">
+    </div>
+  </section>
+  <section id="hero" name="top">
+    <div class="jumbotron">
+      <div class="hero-section">   
+        <img src="images/VRAwards_Hardware1.png">
+        <h2 class="display-4"> <span>“THE BEST WAY TO EXPERIENCE VR.”</span></h2>
+        <img src="images/IGN_white 1.svg">
+        <hr class="my-4"></hr>
+      </div>
+    </div>
+  </section>
+  <!-- VR Game Samples -->
+  <section class="gameSelection">
+    <div class="hero-section">   
+        <h1 class="thinText"><span>EXPERIENCES</h1></span><h1>FOR EVERYONE</h1>
+        <p>VR offers everything from horror, sports, & adventure to meditation</p>
+        <img src="images/variousVR.gif">
+    </section>
+    <!-- Resolution Section -->
+  <section class="resolution">
+    <div class="resolution-section">   
+        <h1 class="thinText"><span>HI-FIDELITY</h1></span><h1>IS IN THE DETAILS</h1>
+       <img src="images/resolution-section.png">
+    </div>
+    </section>
+     <!-- Field of View Section -->
+  <section class="FieldofView">
+        <h1 class="thinText"><span>200˚</h1></span><h1>FULL FIELD OF VIEW</h1>
+        <p>Field of Vision is 20˚ more than the HTC VIVE</p>
+        <div class="FOVexample">
+          <img src="images/FOV_Vid.gif">
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="adventure-item col-lg-6 col-md-12 col-sm-12"> 
+              <div class="FOV-card">
+                <div class="card-items">
+                  <img src="images/AdjEyeRelief_Vid.gif">
+                  <div class="FOV_blurb_title">
+                    <h2>ADJUSTABLE EYE<br>RELIEF AND FOV</br></h2>
+                  </div>
+                  <div class="FOV_blurb_1">  
+                  <h4>Individual Eye FOV:</h4>
+                    <p>0.0˚ - 30.0˚</p>
+                  </div>
+                  <div class="FOV_blurb_2">  
+                    <h4>Eye Relief:</h4>
+                      <p>12.0 mm - 22.0mm</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="adventure-item col-lg-6 col-md-12 col-sm-12"> 
+              <div class="FOV-card">
+                <div class="card-items">
+                  <div class="FOV_blurb_title">
+                    <h2>BINOCULAR<br>HORIZONTAL FOV</br></h2>
+                  </div>
+                  <div class="FOV_blurb_1">  
+                  <h4>Canting Angle:</h4>
+                    <p>+10˚(5˚each eye)</p>
+                  </div>
+                  <div class="FOV_blurb_2">  
+                    <a>Canting is not adjustable - animated solely to <br>illustrate the canting effect on FOV</br></a>
+                  </div>
+                  <img src="images/CantingAngle_Vid.gif">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+  <!-- Tracking Section -->
+  
+  <!-- Footer -->
+  <div class="footer">
+    <img src="images/VI_logo_whitesmll.svg">
+    © 2022 Valve Corporation. All rights reserved.
+  </div>
+  <!-- Bootstrap/ JQuery bits -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     
     <script src="https://code.jquery.com/jquery-3.6.0.js"
     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
     <script src="javascript/index.js"></script>
 
     <script>
