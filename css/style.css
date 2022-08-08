@@ -259,6 +259,9 @@ p {
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
   }
+  .availability {
+    color: white;
+  }
   .bottomButton {
     display:flex;
     flex-direction: column;
